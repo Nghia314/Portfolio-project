@@ -57,7 +57,8 @@ body{
     display: flex;
     background: url(5ffca6e3e0d8ad9231cc2af6_Portfolio-course---final.png) no-repeat center;
     background-size:cover;
-    height: 100vh;
+    background-position: center;
+    height: 100%;
     color: var(--white);
     min-height: 500px;
     font-family: var(--ft)
@@ -79,8 +80,8 @@ body{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: var(--blue);
-    font-weight: 500;
+    color: rgb(12, 150, 0);
+    font-weight: 600;
 }
 /* media responsive */
 @media (max-width:947px){
@@ -89,7 +90,7 @@ body{
     }
     .navbar .menu{
         position: fixed;
-        height: 100vh;
+        height: 100%;
         width: 100%;
         left: 0%;
         top: 0;
@@ -106,4 +107,10 @@ body{
         font-size: 25px;
     }
 }
-/* setting up projects box */
+/* setting up about me section */
+.about-me .about-me-text{
+    font-family: var(--ft);
+    float: left;
+    left: 50%;
+}
+
