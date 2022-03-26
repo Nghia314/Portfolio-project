@@ -1,0 +1,10 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,strong{
+    color: black;
+}
+p,li,span,label,input,textarea{
+    color: #4b5156;
+}
