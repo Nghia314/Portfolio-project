@@ -1,154 +1,27 @@
-:root{
-    --blue: blue;
-    --white: white;
-    --ft: 'times new roman', times, serif;
-
-}
-
-body{
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    text-decoration: none;
-    font-family: var(--ft)
 }
-/* navigation bar style */
-.max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-}
-.navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.navbar{
-    position: fixed;
-    padding: 15px 0;
+.hero{
+    height: 100vh;
     width: 100%;
-    font-family: var(--ft)
-}
-.navbar .logo {
-    font-size: 40px;
-    color: var(--white
-    );
-    font-weight: 600;
-}
-.navbar .menu li a{
-    color: black;
-    font-size: 18px;
-    font-weight: 600;
-    margin-left: 25px;
-    transition: color 0.3s ease;
-}
-.navbar .menu li a:hover{
-    color: var(--blue);
-}
-.navbar .menu li{
-    list-style: none;
-    display: inline-block;
-}
-.navbar .logo  span{
-    color: var(--blue);
-}
-/* home section style */
-.home{
-    display: flex;
-    background: url(5ffca6e3e0d8ad9231cc2af6_Portfolio-course---final.png) no-repeat center;
-    background-size:cover;
+    background-image: url(background.png);
+    background-size: cover;
     background-position: center;
-    height: 100%;
-    color: var(--white);
-    min-height: 500px;
-    font-family: var(--ft)
-    
 }
-.home .max-width{
-    margin: auto 0 auto 40px;
-}
-.home .home-content .text-1{
-    font-size:  27px;
-}
-.home .home-content .text-2{
-    font-size: 70px;
-    font-weight:  600px;
-    margin-left: -3px;
-}
-.home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
-}
-.home .home-content .text-3 span{
-    color: rgb(12, 150, 0);
-    font-weight: 600;
-}
-/* media responsive */
-@media (max-width:947px){
-    .max-width{
-        padding: o 50px;
-    }
-    .navbar .menu{
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        left: 0%;
-        top: 0;
-        background: #111;
-        text-align: center;
-        padding-top: 80px;
-    }
-    .navbar .menu li{
-        display: block;
-        text-decoration: none;
-    }
-    .navbar .menu li a{
-        display: inline-block;
-        margin: 20px 0;
-        font-size: 25px;
-    }
-    /* HR styling */
-    .rounded{
-        border-top: 8px solid blue;
-        border-radius: 10px;
-    }
-}
-/* setting up about me section */
-section{
-    padding: 100px 0;
-}
-.about-me .about-me-text{
-    font-family: var(--ft);
-}
-h1.title{
-    text-align: center;
-    position: relative;
-    font-size: 45px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    font-weight: 500;
-}
-.about-me .about-me-content{
+nav{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
-.about-me .about-me-content .about-me-images{
-    width: 50%;
-}
-.about-me-images{
-    height: 600px;
-    width: 600px;
-    object-fit: cover;
-    border-radius: 6px;
-}
-.about-me .about-me-content .about-me-text{
-    width: 50%;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.about-me .about-me-content .about-me-text span{
-    color: var(--blue);
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
