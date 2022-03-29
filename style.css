@@ -145,9 +145,16 @@ h4{
     margin: 30px auto;
     text-align: center;
 }
-.box {
+.box .button{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+}
+img{
+    display: block;
+    width: 80%;
+    height: auto
+}
+.box:hover .button{
+    opacity: 1;
 }
