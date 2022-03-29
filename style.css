@@ -36,7 +36,7 @@ body{
     font-weight: 600;
 }
 .navbar .menu li a{
-    color: #fff;
+    color: black;
     font-size: 18px;
     font-weight: 600;
     margin-left: 25px;
@@ -100,17 +100,55 @@ body{
     }
     .navbar .menu li{
         display: block;
+        text-decoration: none;
     }
     .navbar .menu li a{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
     }
+    /* HR styling */
+    .rounded{
+        border-top: 8px solid blue;
+        border-radius: 10px;
+    }
 }
 /* setting up about me section */
+section{
+    padding: 100px 0;
+}
 .about-me .about-me-text{
     font-family: var(--ft);
-    float: left;
-    left: 50%;
 }
-
+h1.title{
+    text-align: center;
+    position: relative;
+    font-size: 45px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.about-me .about-me-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-me .about-me-content .about-me-images{
+    width: 50%;
+}
+.about-me-images{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about-me .about-me-content .about-me-text{
+    width: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about-me .about-me-content .about-me-text span{
+    color: var(--blue);
+}
