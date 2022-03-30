@@ -7,17 +7,22 @@ Portfolio website is a collection of Web developer work sample for other people 
 ### Table of content
 
 - Description
+- Table of content
 - Installation
 - Usage
 - Credit
-- License
-
 #### Installation
 
 In other for me to create this project I have too...
 - First, I need to get on GitHub and create a repository With a readme.md
 - second, I clone it down to my Mac terminals and access to it
 - Third, create a html File which is "index.html" and css file which is "style.css"
-
 ##### Usage
--
+/Users/nghiale/Desktop/Portfolio-project/Screen Shot 2022-03-29 at 9.47.08 PM.png
+- the usage I use is to help different device user to addapted to the screen size
+###### Credit
+These are the sites I use to help me doing the project...
+-https://www.w3schools.com/cssref/default.asp
+-https://www.youtube.com/watch?v=lgeoAUvoRJU&t=284s
+-https://www.youtube.com/watch?v=cyuzt1Dp8X8&t=1539s
+-https://www.youtube.com/watch?v=tcskp-ncN0I&t=417s
