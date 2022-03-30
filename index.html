@@ -1,79 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> My Portfolio</title>
-</head>
-
-<body>
+  <body>
     <!-- hero section -->
     <div class="hero">
-        <nav>
-            <h1 class="logo">Portfo<span>lio.</span></h1>
-            <ul>
-                <li> <a href="#content"></a>Home</li>
-                <li> <a href="about"></a>About Me</li>
-                <li> <a href="Project"></a>Project</li>
-            </ul>
-            <a href="" class="btn">Contact</a>
-        </nav>
+      <nav>
+        <h1 class="logo">Portfo<span>lio.</span></h1>
+        <ul>
+          <li><a href="#content-id">Home </a></li>
+          <li><a href="#about-id">About Me </a></li>
+          <li><a href="#project-id">Project </a></li>
+        </ul>
+        <a href="#contact" class="btn">Contact</a>
+      </nav>
 
-        <div class="content" id="content">
-            <h2>Hello, my name is</h2>
-            <h3>Nghia Le</h3>
-            <h4>I'am a <span> Web Developer</span></h4>
-            <div class="newslatter">
-                <form>
-                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-                    <input type="submit" name="submit" value="Lets start">
-                </form>
-            </div>
+      <div class="content" id="content-id">
+        <h2>Hello, my name is</h2>
+        <h3>Nghia Le</h3>
+        <h4>I'am a <span> Web Developer</span></h4>
+        <div class="newslatter">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter Your Email"
+            />
+            <input type="submit" name="submit" value="Lets start" />
+          </form>
         </div>
+      </div>
     </div>
     <!-- about section -->
-    <section class="about" id="about">
-        <div class="main">
-            <img src="me.jpg" alt="picture of me">
-            <div class="about-text">
-                <h1>About Me</h1>
-                <h5><span>Developer</span> & Student</h5>
-                <p>I am a front-end web Developer.Also I'm currently a student of UC Berkeley extendsion learning about
-                    coding, and this is my portfolio, first Project</p>
-            </div>
+    <section class="about" id="about-id">
+      <div class="main">
+        <img src="me.jpg" alt="picture of me" />
+        <div class="about-text">
+          <h1>About Me</h1>
+          <h5><span>Developer</span> & Student</h5>
+          <p>
+            I am a front-end web Developer.Also I'm currently a student of UC
+            Berkeley extendsion learning about coding, and this is my portfolio,
+            first Project
+          </p>
         </div>
+      </div>
     </section>
 
-    <section class="project" id="project">
-        <figure>
-            <div class="main">
-                <img src="code.png" alt="code refactor">
-                <figcaption>Code Refactor Project
-                </figcaption>
-                <div class=" about-text">
-                    <p>The project require me as a user review the mistake within the coding, and fix it to make the
-                        website
-                        fully function</p>
-
-                    <button class="btn" href="https://github.com/Nghia314/prework-about-me"> Check it out!</button>
-                </div>
-            </div>
-        </figure>
-    </section>
-    <section class="project" id="project">
+    <section class="project" id="project-id">
+      <figure>
         <div class="main">
-            <img src="download.jpeg" alt="landing website">
-            <div class="about-text">
-                <h1>Landing project</h1>
-                <p>this project require me to create a landing website to collect information and my contact information
-                </p>
-                <button class="btn">check it out!</button>
-            </div>
+          <img src="code.png" alt="code refactor" />
+          <figcaption>Code Refactor Project</figcaption>
+          <div class="about-text">
+            <p>
+              The project require me as a user review the mistake within the
+              coding, and fix it to make the website fully function
+            </p>
+            <a href="https://nghia314.github.io/code-refactor/">
+              <button class="btn">Check it out!</button>
+            </a>
+          </div>
         </div>
+      </figure>
     </section>
-</body>
-
+    <section class="project" id="project">
+      <figure>
+        <div class="main">
+          <img src="download.jpeg" alt="landing website" />
+          <figcaption>Landing website</figcaption>
+          <div class="about-text">
+            <p>
+              this project require me to create a landing website to collect
+              information and my contact information
+            </p>
+            <a href=" https://nghia314.github.io/My-landing-website/">
+              <button class="btn">check it out!</button>
+            </a>
+          </div>
+        </div>
+      </figure>
+    </section>
+    <section class="contact" id="contact">
+       <div class="main">
+           <div class="about-text">
+           <ul>
+               <li><a href="https://github.com/Nghia314">github</a></li>
+               <li><a href="https://www.linkedin.com/in/nghia-le-4a2b9b232/">Linkedld</a></li>
+               <li><a href="">Davidle314@hotmail.com</a></li>
+               <li><a href="">91600000000</a></li>
+           </ul>
+           </div>
+       </div>
+    
+    </section>
+  </body>
+  <footer>
+      @2022 Made by me
+  </footer>
 </html>
