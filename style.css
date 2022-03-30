@@ -133,11 +133,14 @@ h4{
 .about-text p{
     letter-spacing: 1px;
     color: white;
+    text-align: right;
 }
 .project{
     background:#191919;
     width:100%;
     padding: 100px 0px;
+    display: flex;
+    justify-content: center;
 }title h1{
     color: white;
     font-size: 80px;
@@ -145,16 +148,9 @@ h4{
     margin: 30px auto;
     text-align: center;
 }
-.box .button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-img{
-    display: block;
-    width: 80%;
-    height: auto
-}
-.box:hover .button{
-    opacity: 1;
+.project img{
+    height: auto;
+    width: 430px;
+    justify-content: left;
+    border-radius: 10%;
 }
