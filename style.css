@@ -180,9 +180,19 @@ footer{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
-@media (max-width: 1130px){
-.main{
-    padding: o 50px
+@media screen and (max-width: 1130px){
+main {
+    padding: 0 50px
+}
+}
+@media screen and (min-width: 600px) {
+ main { 
+     padding: 0 50px;
+    }  
+ body {
+     margin: 0 auto;
+     padding: 0 50px;
+ }   
 }
 .nav ul{
     position: fixed;
@@ -191,5 +201,6 @@ footer{
     width: 100%;
     left: 0%;
     top: 0%;
-}
+    text-align: center;
+    padding-top: 80px;
 }
