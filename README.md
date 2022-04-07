@@ -19,6 +19,7 @@ In other for me to create this project I have too...
 - Third, create a html File which is "index.html" and css file which is "style.css"
 ##### Result
 - Deployed site: https://nghia314.github.io/Portfolio-project/
+<img width="1440" alt="Screen Shot 2022-04-07 at 5 27 26 AM" src="https://user-images.githubusercontent.com/100381618/162202980-abd50e4c-a841-4f31-9d33-198a05bf4191.png">
 
 
 ###### Credit
